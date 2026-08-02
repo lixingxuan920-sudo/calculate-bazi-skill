@@ -1,0 +1,13 @@
+interface:
+  display_name: 八字排盘与分析
+  short_description: 校验四柱排盘，分析五行、十神、大运、流年及合婚倾向
+  default_prompt: 使用 $calculate-bazi 根据出生日期、时间、地点和性别，完成可核验的八字排盘与传统命理解读。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
